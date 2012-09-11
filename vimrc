@@ -8,15 +8,10 @@ if filereadable(expand("~/.vimrc.before"))
   source ~/.vimrc.before
 endif
 
-" =============== Pathogen Initialization ===============
-" This loads all the plugins in ~/.vim/bundle
-" Use tpope's pathogen plugin to manage all other plugins
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 
-  runtime bundle/tpope-vim-pathogen/autoload/pathogen.vim
-  call pathogen#infect()
-  call pathogen#helptags()
-
-" ================ General Config ====================
+source ~/.vim/bundle_list
 
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode

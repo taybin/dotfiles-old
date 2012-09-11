@@ -1,0 +1,51 @@
+" let Vundle manage Vundle
+" required!
+Bundle 'gmarik/vundle'
+
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
+
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'mileszs/ack.vim'
+Bundle 'Raimondi/delimitMate'
+Bundle 'sjl/gundo.vim'
+Bundle 'godlygeek/tabular'
+Bundle 'chrisbra/color_highlight'
+Bundle 'AndrewRadev/splitjoin.vim'
+Bundle 'VimEz/ShowMarks'
+
+Bundle 'skwp/vim-colors-solarized'
+Bundle 'skwp/vim-powerline'
+Bundle 'skwp/vim-html-escape'
+Bundle 'skwp/greplace.vim'
+Bundle 'skwp/vim-easymotion'
+
+Bundle 'groenewege/vim-less'
+
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-unimpaired'
+
+Bundle 'kana/vim-arpeggio'
+Bundle 'kana/vim-textobj-user'
+Bundle 'kana/vim-textobj-function'
+Bundle 'kana/vim-textobj-entire'
+Bundle 'kana/vim-textobj-datetime'
+Bundle 'briandoll/change-inside-surroundings.vim'
+Bundle 'austintaylor/vim-indentobject'
+
+Bundle 'vim-scripts/AutoTag'
+Bundle 'vim-scripts/AnsiEsc.vim'
+Bundle 'vim-scripts/IndexedSearch'
+Bundle 'vim-scripts/SearchComplete'
+Bundle 'vim-scripts/YankRing.vim'
+Bundle 'vim-scripts/camelcasemotion'
+Bundle 'vim-scripts/lastpos.vim'
+Bundle 'vim-scripts/matchit.zip'
+Bundle 'vim-scripts/sudo.vim'
