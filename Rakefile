@@ -3,6 +3,7 @@ require 'rake'
 desc "Hook our dotfiles into system-standard positions."
 task :install do
   linkables = Dir.glob('*')
+  linkables = linkables.delete_if {|s| s == "Rakefile"}
 
   skip_all = false
   overwrite_all = false
